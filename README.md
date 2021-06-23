@@ -51,21 +51,25 @@ IFC.js は IFC をパースするライブラリであって、可視化をす�
 
       function init() {
         // サイズ指定
-        const width = 960;
-        const height = 540;
+        const size = {
+          width: 960,
+          height: 540,
+        };
 
         // レンダラーを作成
-        const renderer = new THREE.WebGLRenderer({
-          canvas: document.querySelector("#myCanvas"),
-        });
+        const threeCanvas = document.getElementById("three-canvas");
+        const renderer = new THREE.WebGLRenderer({ canvas: threeCanvas });
         renderer.setPixelRatio(window.devicePixelRatio);
-        renderer.setSize(width, height);
+        renderer.setSize(size.width, size.height);
 
         // シーンを作成
         const scene = new THREE.Scene();
 
         // カメラを作成
-        const camera = new THREE.PerspectiveCamera(45, width / height);
+        const camera = new THREE.PerspectiveCamera(
+          45,
+          size.width / size.height
+        );
         camera.position.set(0, 1000, 1000);
         camera.lookAt(new THREE.Vector3(0, 0, 0));
 
