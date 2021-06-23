@@ -10,8 +10,9 @@ IFC.js を始めるためのハンズオン資料です。
 
 ## STEP1 HTML を書く
 
-HTML を書いて、ブラウザに Hello, World! と表示させましょう。
+[完成品のサンプル](https://hiron.dev/GettingStartIFCjs/step1/index.html)
 
+HTML を書いて、ブラウザに Hello, World! と表示させましょう。  
 ファイル名 index.html を作成し内容を以下にします。
 
 ```html
@@ -31,7 +32,11 @@ HTML を書いて、ブラウザに Hello, World! と表示させましょう。
 
 VSCode を使っている場合は [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) を使うと簡単にホットリロードが使えるようになります。
 
+完成したら GitHubPages を使って公開してみましょう。
+
 ## STEP2 threejs を使ってみる
+
+[完成品のサンプル](https://hiron.dev/GettingStartIFCjs/step2/index.html)
 
 IFC.js は IFC をパースするライブラリであって、可視化をするものではありません。可視化は JS でよく使われている Three.js または Babylon.js を使うことが公式ドキュメントですすめられています。
 
@@ -106,6 +111,8 @@ IFC.js は IFC をパースするライブラリであって、可視化をす�
 ```
 
 ## STEP3 npm を使ってパッケージ管理して書く
+
+[完成品のサンプル](https://hiron.dev/GettingStartIFCjs/step3/index.html)
 
 npm とは Node Package Manager の略で、 JavaScript 系のパッケージを管理するツールです。Node.js がインストールされた状態で、これからの作業するフォルダで `npm init` をすると初期化されます。  
 three.js を使いたいので、初期化した後以下をしてインストールします。
