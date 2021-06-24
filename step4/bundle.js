@@ -47190,7 +47190,7 @@ window.addEventListener("resize", function () {
 }); //IFC 読み込みのセットアップ
 
 var ifcLoader = new IFCLoader();
-ifcLoader.setPath("./wasm");
+ifcLoader.setWasmPath("./wasm");
 var input = document.getElementById("file-input");
 input.addEventListener("change", function (changed) {
   var ifcURL = URL.createObjectURL(changed.target.files[0]);

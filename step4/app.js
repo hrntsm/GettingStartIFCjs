@@ -78,7 +78,7 @@ window.addEventListener("resize", () => {
 
 //IFC 読み込みのセットアップ
 const ifcLoader = new IFCLoader();
-ifcLoader.setPath("./wasm");
+ifcLoader.setWasmPath("./wasm");
 
 const input = document.getElementById("file-input");
 input.addEventListener(
