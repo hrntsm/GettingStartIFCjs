@@ -218,6 +218,8 @@ function init() {
 
 ## STEP4 IFC の読み込みと可視化をする
 
+[完成品のサンプル](https://hiron.dev/GettingStartIFCjs/step4/index.html)
+
 ここは [公式ドキュメント](https://ifcjs.github.io/info/) を参照。公式ドキュメントは日本語化されています。
 
 ## まとめ
