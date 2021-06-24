@@ -220,7 +220,8 @@ function init() {
 
 [完成品のサンプル](https://hiron.dev/GettingStartIFCjs/step4/index.html)
 
-ここは [公式ドキュメント](https://ifcjs.github.io/info/) を参照。公式ドキュメントは日本語化されています。
+ここは [公式ドキュメント](https://ifcjs.github.io/info/) を参照。公式ドキュメントは日本語化されています。  
+three.js の 0.128.0 以上じゃないとうまくいかなかったので注意
 
 ## まとめ
 
