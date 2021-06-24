@@ -156,7 +156,7 @@ export default {
   </head>
   <body>
     <canvas id="three-canvas"></canvas>
-    <script src="bundle.js" />
+    <script src="bundle.js"></script>
   </body>
 </html>
 ```
