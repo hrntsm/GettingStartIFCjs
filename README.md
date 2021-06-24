@@ -223,6 +223,10 @@ function init() {
 ここは [公式ドキュメント](https://ifcjs.github.io/info/) を参照。公式ドキュメントは日本語化されています。  
 three.js の 0.128.0 以上じゃないとうまくいかなかったので注意
 
+## STEP5 Electron でデスクトップアプリ化する
+
+
+
 ## まとめ
 
 IFC.js はどうでしょうか。
