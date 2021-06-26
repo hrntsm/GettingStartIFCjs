@@ -223,7 +223,10 @@ function init() {
 ここは [公式ドキュメント](https://ifcjs.github.io/info/) を参照。公式ドキュメントは日本語化されています。  
 three.js の 0.128.0 以上じゃないとうまくいかなかったので注意
 
-## まとめ
+## IFC.js を使ったものの例
 
-IFC.js はどうでしょうか。
-皆さんのコントリビュートお待ちしています。
+1. https://ifcjs.github.io/web-ifc-three/example/
+1. https://agviegas.github.io/web-ifc-viewer/examples/simple-html/
+1. https://vegarringdal.github.io/web-ifc-experiment/
+1. https://app.bricksapp.io/project/60aba4921a3c06358dc99645/models
+    - https://www.bricksapp.io/
